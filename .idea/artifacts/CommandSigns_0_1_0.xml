@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CommandSigns-0.1.0">
+    <output-path>$PROJECT_DIR$/out/artifacts/CommandSigns_0_1_0</output-path>
+    <root id="archive" name="CommandSigns-0.1.0.jar">
+      <element id="module-output" name="CommandSigns" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/plugin.yml" />
+    </root>
+  </artifact>
+</component>

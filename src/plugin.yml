@@ -1,0 +1,16 @@
+main: net.lukeiscoding.spigot.commandsigns.CommandSigns
+name: CommandSigns
+version: 0.1.0
+api-version: 1.17
+description: CommandSigns is a plugin that allows signs to execute commands, while also allowing the option to charge players money to use the signs.
+author: LukeIsCoding
+
+depend:
+  - Vault
+
+commands:
+  commandsigns:
+    description: The admin commands for the CommandSigns plugin.
+    permission: commandsigns.admin
+    permission-message: I am sorry but you do not have permission to use this command, please contact a server admin if you think this is an error.
+    default: op
